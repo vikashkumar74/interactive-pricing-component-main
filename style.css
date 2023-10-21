@@ -128,8 +128,10 @@ font-weight: bolder;
     
     
   }
-
-
+/*  hover effect on slider thumb */
+ .progress-bar::-webkit-slider-thumb:hover{
+    box-shadow: 2px 2px 17px  10px var(--Strong-Cyan);
+  }
 
 /* toggle button formation */
 .toggle{
